@@ -21,6 +21,10 @@ a {
 a:hover {
     color: var(--yellow);
 }
+h1 {
+    font-size: clamp(1.25rem, 5vw, 1.5rem);
+    font-weight: 800;
+}
 .card {
     display: flex;    
     flex-direction: column;
